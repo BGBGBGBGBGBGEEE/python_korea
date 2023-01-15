@@ -48,5 +48,13 @@ for i in list:
 print()
 for i in range(1, 11):
     for j in range(1, 11):
-        print(i, '곱하기', j, '=',i*j,end=('     '))
+        print(i,'곱하기',j,'=',i*j,end=('     '))
     print()
+
+for i in range(3):
+    print()
+
+for i in range(1, 11):
+    print(i,'의 제곱 =',i*i*i,end=('   '))
+
+    
