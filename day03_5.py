@@ -45,3 +45,8 @@ list = [10, 15, 12]
 # list = 같은 주제의 변수들을 묶음으로 보관 (전체 출력이 가능)
 for i in list:
     print(i,'명',end=(' '))
+print()
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(i, '곱하기', j, '=',i*j,end=('     '))
+    print()
